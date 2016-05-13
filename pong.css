@@ -1,0 +1,44 @@
+body {
+  background: black;
+  overflow: hidden;
+}
+
+.ball {
+  background: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.player {
+  transition: transform 0.15 linear;
+  background: white;
+  width: 10px;
+  position: absolute;
+}
+
+.player#left {
+  left: 10px;
+}
+
+.player#right {
+  right: 10px;
+}
+
+.scoreboard {
+  color: white;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 10px;
+  left: 100px;
+}
+
+.settings {
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  padding: 10px;
+  border: 1px solid white;
+}
